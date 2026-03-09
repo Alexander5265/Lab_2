@@ -20,7 +20,7 @@
 
 ### Тестирование.
 
-![Image alt](https://github.com/Alexander5265/Lab_2/raw/main/2_1/debug 2_1.png)
+![Image alt](https://github.com/Alexander5265/Lab_2/raw/main/2_1/debug2_1.png)
 
 # Задание 2.
 
