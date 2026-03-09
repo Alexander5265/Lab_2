@@ -40,3 +40,5 @@
 5. Результат выводится на экран.
 
 ### Тестирование.
+
+![Image alt](https://github.com/Alexander5265/Lab_2/raw/main/2_2/debug2_2.png)
