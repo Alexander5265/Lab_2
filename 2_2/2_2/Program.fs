@@ -1,13 +1,13 @@
 ﻿open System
 
 // функция перевода двоичного числа в десятичное
-let binaryToDecimal (binary: string) =
+let binToDec (binary: string) =
     Convert.ToInt32(binary, 2)
 
 // функция для вычисления суммы с помощью List.fold
 let sumBinaryNumbers (numbers: string list) =
     List.fold (fun sum element ->
-        sum + binaryToDecimal element
+        sum + binToDec element
     ) 0 numbers
 
 
