@@ -1,12 +1,14 @@
-﻿open System
+open System
 
 // Функция для вычисления произведения цифр числа
 let product (n: int) =
-    n
-    |> abs
-    |> string
-    |> Seq.map (fun c -> int c - int '0')
-    |> Seq.fold (fun acc digit -> acc * digit) 1
+    let rec prod x =
+        if x = 0 then 1
+        else (x % 10) * prod (x / 10)
+
+    let a = abs n
+    if a = 0 then 0
+    else prod a
 
 // Функция, которая получает список произведений цифр
 let getProducts (numbers: int list) =
